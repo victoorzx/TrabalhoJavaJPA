@@ -52,3 +52,8 @@ Neste projeto, a propriedade `spring.jpa.hibernate.ddl-auto` foi intencionalment
 Isso significa que, a cada execução da aplicação, o schema do banco de dados (tabelas, chaves, etc.) é completamente **apagado e recriado do zero**. Esta abordagem foi escolhida para garantir uma experiência de demonstração limpa e consistente. Ao executar o projeto, o avaliador terá a certeza de que o banco está em um estado conhecido e será populado com uma massa de dados completa e realista, permitindo que todas as consultas funcionem como esperado na primeira tentativa, sem o risco de erros de dados duplicados (`Duplicate entry`).
 
 Essa estratégia é ideal para ambientes de desenvolvimento e demonstração. Para um ambiente de produção, o valor seria alterado para `update` ou `validate` para preservar os dados existentes.
+
+
+## Diagrama 
+
+![Diagrama](https://github.com/victoorzx/TrabalhoJavaJPA/blob/master/diagramajava.png)
